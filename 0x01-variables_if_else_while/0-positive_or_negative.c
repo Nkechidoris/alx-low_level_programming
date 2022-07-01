@@ -7,7 +7,7 @@
  *and print the last digit of the number stored in the variable n
  *Return: Alwayd 0 (Success)
  */
-int man(void)
+int main(void)
 {
 	int n;
 
