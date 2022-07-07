@@ -8,7 +8,7 @@
 int main(void)
 {
 	int ii, _sum;
-	
+
 	for (ii = 3; ii < 1024; ii++)
 	{
 		if (ii % 3 == 0 || ii % 5 == 0)
