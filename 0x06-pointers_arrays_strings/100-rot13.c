@@ -11,7 +11,7 @@ char *rot13(char *s)
 	int j;
 	char alpha[] = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz";
 	int index = 0;
-	
+
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		for (j = 0; alpha[j] != '\0'; j++)
