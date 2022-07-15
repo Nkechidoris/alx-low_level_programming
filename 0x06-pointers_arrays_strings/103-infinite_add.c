@@ -19,7 +19,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	if (ln1 >= size_r || ln2 >= size_r)
 		return (0);
 	/* start adding*/
-       	for (; i >= 0 && j >= 0 && k < size_r - 1; i--, j--)
+	for (; i >= 0 && j >= 0 && k < size_r - 1; i--, j--)
 	{
 		sum = (n1[i] - '0') + (n2[j] - '0') + carry;
 		r[k++] = (sum % 10) + '0';
