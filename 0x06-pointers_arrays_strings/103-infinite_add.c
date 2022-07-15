@@ -15,7 +15,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	int sum = 0, carry = 0;
 	int ln1 = strlen(n1), ln2 = strlen(n2);
 	int i = ln1 - 1, j = ln2 - 1, k = 0, l;
-	
+
 	if (ln1 >= size_r || ln2 >= size_r)
 		return (0);
 	/* start adding*/
@@ -36,7 +36,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	}
 	/* check for overflow */
 	if (carry != 0)
-		r[k++] = carry + '0'
+		r[k++] = carry + '0';
 	if (k > size_r - 1)
 		return (0);
 	r[k] = '\0';
